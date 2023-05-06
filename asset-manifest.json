@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/react-code-along.git/static/css/main.b058fd2a.css",
-    "main.js": "/react-code-along.git/static/js/main.3d48be05.js",
-    "static/js/787.e4e9b7ff.chunk.js": "/react-code-along.git/static/js/787.e4e9b7ff.chunk.js",
-    "index.html": "/react-code-along.git/index.html",
-    "main.b058fd2a.css.map": "/react-code-along.git/static/css/main.b058fd2a.css.map",
-    "main.3d48be05.js.map": "/react-code-along.git/static/js/main.3d48be05.js.map",
-    "787.e4e9b7ff.chunk.js.map": "/react-code-along.git/static/js/787.e4e9b7ff.chunk.js.map"
+    "main.css": "/react-code-along/static/css/main.b058fd2a.css",
+    "main.js": "/react-code-along/static/js/main.5d143248.js",
+    "static/js/787.e4e9b7ff.chunk.js": "/react-code-along/static/js/787.e4e9b7ff.chunk.js",
+    "index.html": "/react-code-along/index.html",
+    "main.b058fd2a.css.map": "/react-code-along/static/css/main.b058fd2a.css.map",
+    "main.5d143248.js.map": "/react-code-along/static/js/main.5d143248.js.map",
+    "787.e4e9b7ff.chunk.js.map": "/react-code-along/static/js/787.e4e9b7ff.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b058fd2a.css",
-    "static/js/main.3d48be05.js"
+    "static/js/main.5d143248.js"
   ]
 }
