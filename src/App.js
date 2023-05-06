@@ -5,30 +5,28 @@ class App extends Component {
   constructor() {
     super();
     this.state = {
-      string: "Hello User",
+      monstser: [
+        {
+          name: "Frankestien",
+          id: "1",
+        },
+        {
+          name: "Dracula",
+          id: "2",
+        },
+        {
+          name: "Zombie",
+          id: "3",
+        },
+      ],
     };
   }
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>{this.state.string}</p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-          <button
-            className="App-link"
-            onClick={() => this.setState({ string: "Hello Jack" })}
-          >
-            Learn world
-          </button>
-        </header>
+        {this.state.monstser.map((monster) => (
+          <h1 key={monster.id}>{monster.name}</h1>
+        ))}
       </div>
     );
   }
